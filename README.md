@@ -15,7 +15,7 @@ El proyecto **"Amigo Secreto"** consiste en una applicación interactiva en **Ja
 - **CSS** - Diseño y estilos
 
 ## Cómo usar el proyecto
-1. Clona el repositorio
+1. Clona el repositorio con: git clone https://github.com/kelynethlara/challenge-amigo-secreto.git
 2. Abrir el archivo indx.html
 3. Ingresa los nombres en la caja de texto y presionar "Añadir"
 4. Presiona el botón "Sortear" para obtener el resultado
