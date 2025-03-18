@@ -1,45 +1,46 @@
-@@ -0,0 +1,44 @@
- body {
-     font-family: Arial, sans-serif;
-     text-align: center;
-     background-color: #ffbebe;
- }
- 
- .main-title {
-     color: #000000;
- }
- 
- .input-wrapper {
-     margin: 20px;
- }
- 
- .input-name {
-     padding: 10px;
-     font-size: 16px;
- }
- 
- .button-add, .button-draw {
-     background-color: hsl(330, 83%, 55%);
-     color: rgb(255, 175, 238);
-     border: none;
-     padding: 10px;
-     margin-left: 10px;
-     cursor: pointer;
- }
- 
- .button-add:hover, .button-draw:hover {
-     background-color: hsl(320, 91%, 78%);
- }
- 
- .name-list, .result-list {
-     list-style: none;
-     padding: 0;
- }
- 
- .name-list li, .result-list li {
-     background: white;
-     margin: 5px;
-     padding: 10px;
-     border-radius: 5px;
-     display: inline-block;
- }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffbebe;
+}
+
+.main-title {
+    color: #000000;
+}
+
+.input-wrapper {
+    margin: 20px;
+}
+
+.input-name {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.button-add, .button-draw {
+    background-color: hsl(330, 83%, 55%);
+    color: rgb(255, 175, 238);
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.button-add:hover, .button-draw:hover {
+    background-color: hsl(320, 91%, 78%);
+}
+
+.name-list, .result-list {
+    list-style: none;
+    padding: 0;
+    text-align: center; 
+}
+
+.name-list li, .result-list li {
+    background: white;
+    margin: 5px auto; 
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center; 
+}
