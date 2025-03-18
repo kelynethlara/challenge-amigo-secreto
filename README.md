@@ -1,4 +1,4 @@
-# challenge-amigo-secreto
+# Amigo-Secreto
 ## Proyecto
 El proyecto **"Amigo Secreto"** consiste en una applicación interactiva en **JavaScript, Html y CSS** que permite agregar nombres, mostrarlos en la pantalla y realizar un sorteo de cada principiante.
 
@@ -19,3 +19,4 @@ El proyecto **"Amigo Secreto"** consiste en una applicación interactiva en **Ja
 2. Abrir el archivo indx.html
 3. Ingresa los nombres en la caja de texto y presionar "Añadir"
 4. Presiona el botón "Sortear" para obtener el resultado
+
