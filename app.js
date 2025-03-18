@@ -27,3 +27,18 @@
          li.textContent = nombre;
          lista.appendChild(li);
      });
+    }
+ 
+    // Función para sortear un amigo secreto
+    function sortearAmigo() {
+        if (nombres.length < 2) {
+            alert("Debes ingresar al menos 2 nombres para realizar el sorteo.");
+            return;
+        }
+    
+        let indiceGanador = Math.floor(Math.random() * nombres.length);
+        let ganador = nombres[indiceGanador];
+    
+        let resultado = document.getElementById("resultado");
+        resultado.innerHTML = `<li>🎉 Tu Amigo Secreto es: <strong>${ganador}</strong> 🎉</li>`;
+    } 
