@@ -1,0 +1,14 @@
+@@ -0,0 +1,44 @@
+ body {
+     font-family: Arial, sans-serif;
+     text-align: center;
+     background-color: #ffbebe;
+ }
+ 
+ .main-title {
+     color: #000000;
+ }
+ 
+ .input-wrapper {
+     margin: 20px;
+ }
